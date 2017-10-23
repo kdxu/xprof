@@ -1,8 +1,5 @@
 {"1.1.0",
-[{<<"cowboy">>,
-  {git,"git://github.com/ninenines/cowboy",
-       {ref,"2bcb3902570ee4411dfe526e2662a55751d5c1d9"}},
-  0},
+[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"2.0.0">>},0},
  {<<"cowlib">>,
   {git,"https://github.com/ninenines/cowlib",
        {ref,"11e07d3c2b164d06ad35188d83ad70e7501396db"}},
@@ -19,6 +16,7 @@
   1}]}.
 [
 {pkg_hash,[
+ {<<"cowboy">>, <<"A3B680BCC1156C6FBCB398CC56ADC35177037012D7DC28D8F7E7926D6C243561">>},
  {<<"customized_hdr_histogram">>, <<"14DDAE316FB694455FCC20CBD1AD5F057E421132E562AFB93BD81EDA44BD937D">>},
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"jsone">>, <<"133BE761810EC0E94E05D4156944FFC35D02D6A88FA8FDFC2AF29BA53EADB377">>},
